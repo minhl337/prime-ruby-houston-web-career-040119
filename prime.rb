@@ -11,3 +11,4 @@ def prime?(n)
   else
   (2..Math.sqrt(n)).none?{|x| n%x==0}
 end
+end
