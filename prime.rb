@@ -4,3 +4,7 @@
 #   (2..Math.sqrt(n)).none? {|f| n % f == 0}
 # end
 # end
+
+def prime?(n)
+  (2..Math.sqrt(n)).none?{|x| n%x==0}
+end
